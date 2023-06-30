@@ -103,6 +103,8 @@ jobs:
   workspace:
     clean: all
   pool: AMD-GPU
+  dependsOn:
+  - Linux_Build
   timeoutInMinutes: 60
 
   steps:
