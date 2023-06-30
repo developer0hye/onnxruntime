@@ -102,7 +102,7 @@ jobs:
 - job: Linux_Test
   workspace:
     clean: all
-  pool: AMD_GPU
+  pool: AMD-GPU
   timeoutInMinutes: 60
 
   steps:
